@@ -102,9 +102,7 @@
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
       <img src="firefox_logo-only_RGB_120.png" 
-      alt="fire fox logo" 
-      width="500" height="600">
-
+      alt="fire fox logo">
     </header>
 
     <main>
@@ -150,7 +148,11 @@
 
       <div class="red-panda">
         <!-- insert picture element -->
-        
+        <picture>
+          <source media="max-width: 600px" srcset="red-panda_600.jpg">
+          <img src="red-panda_1200.jpg"
+          alt="Red Panda picture">
+        </picture>
       </div>
 
     </main>
