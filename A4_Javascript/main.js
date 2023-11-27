@@ -1,3 +1,10 @@
+<!--
+Name: Trevor Innes
+File: main.js
+Date: Nov 27th, 2023
+Description: A random phrase generator
+-->
+
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
